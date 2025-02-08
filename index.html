@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+</head>
+
+<body>
+    
+    <header>
+        <a href="#home" class="logo">
+            <img src="logo.png" alt="logo">
+        </a>
+
+        <nav>
+            <a href="#home" class="active"><i class="fa-solid fa-house"></i> Home</a>
+            <a href="#about"><i class="fa-solid fa-user"></i> About Me</a>
+            <a href="#skills"><i class="fa-solid fa-lightbulb"></i> Skills</a>
+            <a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a>
+        </nav>
+    </header>
+
+    
+    <section id="home" class="home">
+        <div class="home-image">
+            <img src="main.png" alt="My Photo">
+        </div>
+        <div class="home-text">
+            <h1>WELCOME TO MY <span>PORTFOLIO</span></h1>
+            <h3 class="typing-text">I'm EARL, a First Year BSIT Student <span></span></h3>
+            <p>If you want to know me more, just click "Learn More"</p>
+            <a href="#about" class="button">Learn More</a>
+        </div>
+    </section>
+
+    
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="bio-text">
+                <p>
+                    Hello! I'm <strong>Earl Denver E. Avergonzado</strong>, a passionate and aspiring web developer 
+                    from the vibrant city of Davao, live in Island Garden City of Samal. Born on <strong>March 24, 2006</strong>, I have always been fascinated 
+                    by the intersection of creativity and technology. I strive to create engaging, functional, and 
+                    aesthetically pleasing websites that make a difference.
+                </p>
+                
+                <h3>📚 Early Life & Education</h3>
+                <p>
+                    Growing up in Davao City, I was captivated by the power of technology to transform lives. 
+                    I graduated from <strong>Nieves Villarica National High School</strong>, where I honed my skills 
+                    in the TVL Department and earned my <strong>NC2 certification</strong>. My education provided 
+                    a strong foundation for my journey in web development.
+                </p>
+    
+                <h3>💻 Skills & Expertise</h3>
+                <p>
+                    As a budding web developer, I focus on building responsive, user-friendly websites. My skill set includes:
+                </p>
+                <ul>
+                    <li><strong>Programming Languages:</strong> HTML, CSS, JavaScript, and C++</li>
+                    <li><strong>Tools & Frameworks:</strong> React.js, Bootstrap, and Tailwind CSS</li>
+                    <li><strong>Design Principles:</strong> UX/UI design with attention to detail</li>
+                </ul>
+    
+                <h3>🎨 Hobbies & Interests</h3>
+                <p>
+                    Beyond coding, I immerse myself in various creative pursuits:
+                </p>
+                <ul>
+                    <li>🎮 Gaming: Exploring interactive narratives and designs in games</li>
+                    <li>📸 Photography: Capturing the beauty of my surroundings</li>
+                    <li>🎨 Graphic Design: Experimenting with visual elements and layouts</li>
+                </ul>
+    
+                <h3>👨‍👩‍👧‍👦 Family Background</h3>
+                <p>
+                    My family has always been my pillar of strength, inspiring me to pursue my dreams. Their unwavering support 
+                    has motivated me to excel in my academic and personal endeavors.
+                </p>
+            </div>
+    
+            <div class="bio-gallery">
+                <figure>
+                    <img src="profile.png" alt="Earl Denver's Profile">
+                    <figcaption>Web Developer in Davao City</figcaption>
+                </figure>
+                <figure>
+                    <img src="education.jpg" alt="Graduation">
+                    <figcaption>Graduation Day at Nieves Villarica National High School</figcaption>
+                </figure>
+                <figure>
+                    <img src="web-dev.jpg" alt="Coding">
+                    <figcaption>Passion for Web Development</figcaption>
+                </figure>
+                <figure>
+                    <img src="family.jpg" alt="Family">
+                    <figcaption>Time with Family</figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="skills">
+        <h1>My Skills</h1>
+        <ul class="skills-list">
+            <li>HTML</li>
+            <li>C++</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Responsive Web Design</li>
+        </ul>
+    </section>
+
+    
+    <section id="contact" class="contact">
+        <h1>Contact Me</h1>
+        <form id="contact-form">
+            <div>
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            <div>
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div>
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" placeholder="Write your message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <br />
+        <div class="social-icons">
+            <a href="https://www.facebook.com/TABEmainittt" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/earlyshits_/" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://x.com/TABEmainitt" title="X"><i class="fa-brands fa-x-twitter"></i></a>
+            <a title="Telegram"><i class="fa-brands fa-telegram"></i></a>
+            <a title="Discord"><i class="fa-brands fa-discord"></i></a>
+        </div>
+    </section>
+
+    
+    <footer id="footer">
+        <p>&copy; 2024 My Portfolio. All rights reserved. Designed by <a href="#">Earl Denver Avergonzado</a></p>
+    </footer>
+
+</body>
+
+</html>
